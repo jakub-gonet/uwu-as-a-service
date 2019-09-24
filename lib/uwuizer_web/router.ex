@@ -5,7 +5,7 @@ defmodule UwuizerWeb.Router do
     plug :accepts, ["json"]
   end
 
-  scope "/api", UwuizerWeb do
+  scope "/uwu", UwuizerWeb do
     pipe_through :api
 
     post "/", UwuController, :uwu
